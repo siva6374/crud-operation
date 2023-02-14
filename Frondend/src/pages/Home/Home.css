@@ -1,0 +1,176 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    padding: 50px 0px;
+}
+.Title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.table{
+    height: 120px  !important;
+}
+.table tr>td{
+    vertical-align: middle;
+    height: 120px;
+    text-align: center;
+}
+.table tr>th{
+    vertical-align: middle;
+    text-align: center;
+    height: 80px;
+}
+.tbody tr>th{
+    vertical-align: middle;
+    height: 120px;
+    text-align: center;
+}
+.addMore{
+    font-size: 18px;
+    font-family: 600;
+    background-color: #000;
+    padding: 6px 47px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+   
+}
+.deleteIcon{
+    width: 80px;
+    height: 92px;
+    margin: auto;
+    display: block;
+    padding:21px 10px 0px 12px;
+    color: #ccc;
+}
+.searchField{
+    width: 394px;
+    height: 45px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 344px 9px;
+    background-image:url('./../../Images/search.png') ;
+    background-color: #e3e3e3;
+}
+.table{
+   
+    border: 1px solid #ccc;   
+}
+
+.thead{
+    border-bottom: 1px solid #ccc;
+}
+
+
+.tablecontainer{
+    margin-top: 35px;
+}
+
+.modalBody{
+    position: fixed;
+    top:71px;
+    left:0;
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+
+.modalContent{
+    width: 362px;
+    height: auto;
+    border-radius: 8px;
+     background-color: #94948B;
+    margin: auto;
+    padding: 0px;
+}
+
+
+
+.deleteText{
+    font-size: 20px;
+    text-align: center;
+     width: 64%;
+    margin: 0 auto;
+    padding: 29px 1px;
+    color:#fff;
+
+
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-between;
+    border-right: #000;
+
+}
+
+.btn-modal{
+    font-size: 18px;
+    font-family: 600;
+    background-color: #B5B5B2;
+    
+    padding: 6px 40px;
+     
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.cancel{
+   
+    width:49.5%;
+    border:none;
+    border-radius: bottom left; 
+    border-bottom-left-radius: 8px;
+
+}
+
+.cancel:hover{
+    color:black;
+    background-color: #fff;
+}
+
+.delete{
+    
+    padding: 6px 55px;
+    width:49.5%;
+    
+    border:none;
+    border-bottom-right-radius: 8px;
+}
+.delete:hover{
+    color:black;
+    background-color: #fff;
+}
+
+.delete-btn,.edit-btn{
+    outline: none;
+    border: none;
+    
+    /* font-weight: 600; */
+    background-color: white;
+    font-size: 15px;
+}
+
+
+
+.d-ic{
+    display: inline-block;
+    height: 23px;
+    margin-right: 6px;
+    
+    
+    
+}
